@@ -775,7 +775,7 @@ class Game {
     this.gameTime = 0
     this.timeLimit = 3000000
     this.speed = 1
-    this.debug = true
+    this.debug = false
   }
   public update(deltaTime: number): void {
     if (!this.gameOver) this.gameTime += deltaTime
